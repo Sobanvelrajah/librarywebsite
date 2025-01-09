@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Library Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">NOVELS</a>
+  <a href="#" class="w3-bar-item w3-button">PHILOSSOPHY</a>
+  <a href="#" class="w3-bar-item w3-button">SHORT STORIES</a>
+  <a href="#" class="w3-bar-item w3-button">SCI-FI</a>
+  <a href="#" class="w3-bar-item w3-button">MAGICAL REALISM</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i></a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Classics</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Book List <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">FICTION</a>
+      <a href="#" class="w3-bar-item w3-button">NON-FICTION</a>
+      <a href="#" class="w3-bar-item w3-button">SCI-FI</a>
+      <a href="#" class="w3-bar-item w3-button">HISTROICAL FICTION</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">CLICK TO RESERVE</button>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR LIBRARIANS</h2>
+<p>Meet the Bookworms</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/466106541_1749063945847964_3350315960565778959_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=RUOxJepbbcgQ7kNvgHJcCUS&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=A1hEc10R2ve4FTuHEsYci1j&oh=00_AYCV7L-HG5STgHA02UZ4W_p1DGOzoEOoce0mHs41jVxC3g&oe=67857DA4" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Vinthusan Vinothalingam</h3>
+  <p>Librarian</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/465740451_1325178375519418_475533887224727264_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3p3LoK_PhPsQ7kNvgF66KaF&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=AgXx_Bf35C0jwiFYpu2VuMN&oh=00_AYAzjYszYYCea5ZFU0AlfnukWtL5pEgIfhzTdaxg7hbXZw&oe=67857BC1" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Md Hasib Miazi</h3>
+  <p>Manager</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/464615483_1277700583259905_247541641212418663_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=MTc2U4o8ib0Q7kNvgFNQ-BM&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=AtIVTyTaPluqd99kgEiclhr&oh=00_AYCRM9_bpXQU-gZ6LdGISBkprB2ikLpIPD3zd4a0hzYwVg&oe=67856BAD" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Gowthamy Nixon</h3>
+  <p> Library assistant</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent-lhr8-2.xx.fbcdn.net/v/t1.6435-9/171847427_1570666003122871_5998511919389227483_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=c9LSzvPxIHoQ7kNvgGvXRwA&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=AxEeEsAy2IYoUKCtWOFF9Fp&oh=00_AYBx6mXdGfzoxSPeAasuOJlq3XJEmLTvswwOfqHP_hy3Tg&oe=677FB5A5" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>KanthRuban</h3>
+  <p>Assistant Manager</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Classic Books</h2>
+<p> 
+  Classics books are works of literature that have stood the test of time, offering enduring themes, universal truths, and cultural or historical significance. These texts are recognized for their artistic merit, literary innovation, and influence on both contemporary and future generations. Often considered masterpieces, classics span genres, cultures, and periods, reflecting profound insights into human nature, society, and the world. Examples include works by authors such as Homer, Shakespeare, Jane Austen, and Mark Twain. Classics continue to resonate with readers, providing a window into the past while addressing timeless questions and ideas.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://m.media-amazon.com/images/I/81bAXZAp-GL.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3></h3>
+  <h4></h4>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://d3525k1ryd2155.cloudfront.net/h/475/297/1321297475.0.x.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3></h3>
+  <h4></h4>
+
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://m.media-amazon.com/images/I/71WQQjgEhQL.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Middleroad Street, London.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Northumbria UK</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +447372234586</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  NULib@gmail.lk</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> NU LIB</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
